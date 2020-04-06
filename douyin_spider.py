@@ -7,7 +7,8 @@
 #
 #  Author: huang ke
 #  Email: huangkwell@163.com
-#  2020/4/6
+#  微信: 760208296
+#  复活时间: 2020/4/6
 #
 #############################
 
@@ -96,8 +97,8 @@ def get_all_video_urls(user_id, max_cursor, dytk):
             data = response.json()
             l = data['aweme_list']
             if l == []:
-                print("fuck, 又是空的")
-                return
+                print("没收到，或者到头了")
+                return VIDEO_URLS
 
             for li in data['aweme_list']:
                 name = li.get('desc')
