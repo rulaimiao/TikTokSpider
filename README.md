@@ -42,7 +42,7 @@
 
 
 
-#### STEP4:
+#### Step4:
 
 打开POSTMAN操作
 
